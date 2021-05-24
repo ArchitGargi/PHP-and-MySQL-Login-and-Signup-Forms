@@ -20,7 +20,7 @@ $fname = $_POST["firstname"];
 $lname = $_POST["lastname"];
 $uname = $_POST["username"];
 $password = $_POST["password"];
-$conn = mysqli_connect("localhost", "root", "", "skewminds");
+$conn = mysqli_connect("localhost", "Username", "Password", "your database");
     if (!$conn) {
     die("Couldn't connect to server! Try Again Later." . "<br>");
     }
@@ -69,7 +69,7 @@ function senddata() {
     $lname = $_POST["lastname"];
     $uname = $_POST["username"];
     $password = $_POST["password"];
-        $conn = mysqli_connect("localhost", "root", "", "skewminds");
+    $conn = mysqli_connect("localhost", "Username", "Password", "your database");
     if (!$conn) {
     die("Couldn't connect to server! Try Again Later." . "<br>");
     }

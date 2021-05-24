@@ -17,6 +17,7 @@ This is the login and signup forms for your website made with PHP, MySQL, JavaSc
       </html>
 
 Replace the "username", "password", "your database" at line 72 and 23 in the main php file. 
+
 This code will create four session variables which are password, username, userid, first name and password. Below are the variables in PHP.
 
     $_SESSION["userid"] = $userid;

@@ -49,12 +49,12 @@ If you want the sign up and log in forms to appear when the page reloades becaus
       ?>
 You need to make a table too in mysql to store user's data. Copy paste the follwoing mysql query to make a table for it.
 
-              CREATE TABLE users (
-              username longtext,
-              password1 longtext,
-              firstN longtext,
-              lastN longtext,
-              useris int(11) NOT NULL AUTO_INCREMENT,
-              PRIMARY KEY (`useris`)
-            )
+      CREATE TABLE users (
+      username longtext,
+      password1 longtext,
+      firstN longtext,
+      lastN longtext,
+      useris int(11) NOT NULL AUTO_INCREMENT,
+      PRIMARY KEY (`useris`)
+      );
 Thank You for using it.

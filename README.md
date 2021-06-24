@@ -16,18 +16,18 @@ This is the login and signup forms for your website made with PHP, MySQL, JavaSc
       </body>
       </html>
 
-Replace the "username", "password", "your database" at line 72 and 23 in the main php file. 
+Replace the "username", "password", "your database" at line 72 and 23 in the login signup main php file. 
 
 This code will create four session variables which are password, username, userid, first name and password. Below are the variables in PHP.
 
-    $_SESSION["userid"] = $userid;
-    $_SESSION["firstname"] = $fname;
-    $_SESSION["lastname"] = $lname;
-    $_SESSION["username"] = $uname;
-    $_SESSION["password"] = $password;
+    $_SESSION["userid"]; //user id
+    $_SESSION["firstname"]; //first name
+    $_SESSION["lastname"]; //last name
+    $_SESSION["username"]; //username
+    $_SESSION["password"]; //password
     
     
-If you want to hide the buttons of login and signup on sign up or login then use the code below.
+If you want to hide the buttons of login and signup on sign up or login when the user is logged in then use the code below.
 
       <?php
       if ($_SESSION && $_SESSION["username"] != "") {

@@ -56,7 +56,8 @@ You need to make a table too in mysql to store user's data. Copy paste the follw
       password1 longtext,
       firstN longtext,
       lastN longtext,
-      useris int(11) NOT NULL AUTO_INCREMENT,
+      userid int(11) NOT NULL AUTO_INCREMENT,
       PRIMARY KEY (`useris`)
       );
 Thank You for using it.
+PS the spelling of userid is useris in my code, u can change it if u want to..
